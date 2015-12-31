@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Racket Track-It</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_player">AddPlayer</string>
+    <string name="title_activity_find_players">FindPlayers</string>
+    <string name="title_activity_view_players">ViewPlayers</string>
+    <string name="title_activity_player_details">PlayerDetails</string>
+    <string name="title_activity_add_player_report">AddPlayerReport</string>
+    <string name="title_activity_view_report">ViewReport</string>
+    <string name="title_activity_invalid_input_popup">InvalidInputPopup</string>
+    <string name="title_activity_advanced_report">AdvancedReport</string>
+    <string name="title_activity_overall_view_advanced">OverallViewAdvanced</string>
+    <string name="title_activity_edit_player">EditPlayer</string>
+
+</resources>

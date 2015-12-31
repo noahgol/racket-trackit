@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/go_to_main"
+        android:title="home"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/add_player"
+        android:title="add player"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/find_players"
+        android:title="find players"
+        android:showAsAction="ifRoom" />
+
+</menu>

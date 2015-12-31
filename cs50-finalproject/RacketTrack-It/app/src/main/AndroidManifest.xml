@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.noah.rackettrack_it" >
+
+    <uses-sdk android:minSdkVersion="11"/>
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/tennis_racket_hi"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light">
+        <activity
+            android:name="com.example.noah.rackettrack_it.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.AddPlayer"
+            android:label="@string/title_activity_add_player" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.FindPlayers"
+            android:label="@string/title_activity_find_players" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.ViewPlayers"
+            android:label="@string/title_activity_view_players" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.PlayerDetails"
+            android:label="@string/title_activity_player_details" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.AddPlayerReport"
+            android:label="@string/title_activity_add_player_report" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.ViewReport"
+            android:label="@string/title_activity_view_report" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.InvalidInputPopup"
+            android:label="@string/title_activity_invalid_input_popup" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.AdvancedReport"
+            android:label="@string/title_activity_advanced_report" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.OverallViewAdvanced"
+            android:label="@string/title_activity_overall_view_advanced" >
+        </activity>
+        <activity
+            android:name="com.example.noah.rackettrack_it.EditPlayer"
+            android:label="@string/title_activity_edit_player" >
+        </activity>
+    </application>
+
+</manifest>

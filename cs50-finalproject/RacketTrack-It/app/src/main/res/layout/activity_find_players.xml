@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.noah.rackettrack_it.FindPlayers">
+
+    <TextView android:text="find players" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/findReportText"
+        android:textColor="#ff0008ff"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-thin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find all players"
+        android:id="@+id/allPlayersButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:capitalize="none"
+        android:fontFamily="sans-serif-thin" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/firstName"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/findReportText"
+        android:layout_centerHorizontal="true"
+        android:hint="first name"
+        android:fontFamily="sans-serif-thin" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/lastName"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/firstName"
+        android:layout_alignLeft="@+id/firstName"
+        android:layout_alignStart="@+id/firstName"
+        android:hint="last name"
+        android:fontFamily="sans-serif-thin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find above player"
+        android:id="@+id/namedPlayerButton"
+        android:layout_below="@+id/lastName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:capitalize="none"
+        android:fontFamily="sans-serif-thin" />
+
+</RelativeLayout>
